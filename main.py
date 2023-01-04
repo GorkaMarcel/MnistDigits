@@ -4,11 +4,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #training data set import
-train = pd.read_csv(r'C:\Users\kosmi\PycharmProjects\MNISTInz\data\train.csv')
+train = pd.read_csv('train.csv')
 #training data set basc information
 print(train.head())
 #test data set import
-test = pd.read_csv(r'C:\Users\kosmi\PycharmProjects\MNISTInz\data\test.csv')
+test = pd.read_csv('test.csv')
 
 #transforming data from pandas data frame to numpy and splitting them to y and x
 #labels
